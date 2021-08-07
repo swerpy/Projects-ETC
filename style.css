@@ -1,0 +1,83 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  background-color: yellow;
+  background-repeat: no-repeat;
+}
+
+#titlebook {
+  border-radius: 50%;
+  width: 100px;
+}
+
+img {
+  width: 300px;
+}
+
+h1 {
+  text-shadow: 2px 2px #f8bbd0;
+  font-size: 20px;
+}
+
+#background {
+  padding: 20px;
+  font-size: 18;
+}
+
+p {
+  font-size: 18px;
+  color: purple;
+}
+
+.menu {
+  list-style: none;
+  font-family: sans-serif;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.links {
+  float: left;
+  color: dodgerblue;
+  padding-top: 5px;
+  padding-left: 9px;
+  padding-bottom: 5px;
+  padding-right: 9px;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+.links:hover {
+  background-color: crimson;
+}
+
+.line {
+  height: 6px;
+  background-color: #000;
+  width: 70px;
+  margin: 8px auto;
+}
+
+
+img {
+    transition: tranform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+#JK. ROWLING {
+    transition: tranform .2s;
+    border: 10px solid #AAAAAA;
+    width: 542px;
+    height: 372px;  
+}
+
+img:hover {
+    transform: scale(0.9)
+}
+
